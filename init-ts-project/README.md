@@ -12,6 +12,7 @@ Simply execute this command (Ensure you are in ``init-ts-project/`` folder)
 
 Initialize your JS project with NPM
 
+    $ mkdir init-ts-project
     $ npm init
 
 This will create a ``package.json`` file.
