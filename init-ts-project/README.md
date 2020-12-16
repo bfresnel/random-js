@@ -2,7 +2,13 @@
 
 Project showing how to create a TS project from scratch
 
-# How-To #
+# Initialize the project
+
+Simply execute this command (Ensure you are in ``init-ts-project/`` folder)
+
+    $ npm install
+
+# How i made this project #
 
 Initialize your JS project with NPM
 
@@ -12,7 +18,7 @@ This will create a ``package.json`` file.
 
 Now we have to add typescript to our project :
 
-    $ npm install -g typescript
+    $ npm install typescript --save-dev
 
 Now we have to create a ``tsconfig.json`` file : 
 
@@ -30,7 +36,9 @@ Create an ``index.js`` file in a ``src/`` folder and write some code in it. Afte
 
     $ npx tsc
 
-Now the dist folder is create with all sources written in JS. You can execute the index.js with the next command :
+<em>**NOTE: the npx command is specific in this case because we don't install typescript globally. It allows to use tsc (TypeScriptCompiler) without setting typescript globally**</em>
+
+Now the ``dist`` folder is created with all sources written in JS. You can execute the ``index.js`` file with the next command :
 
     $ cd dist/
     $ node index.js
