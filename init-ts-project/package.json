@@ -1,0 +1,12 @@
+{
+  "name": "init-ts-project",
+  "version": "1.0.0",
+  "description": "Projet pour creer un projet en TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilets": "npx tsc"
+  },
+  "author": "bfresnel",
+  "license": "ISC"
+}
