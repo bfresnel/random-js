@@ -1,6 +1,6 @@
 # INIT-TS-PROJECT
 
-- Project showing how to transform a JS project to a TS project
+Project showing how to create a TS project from scratch
 
 # How-To #
 
