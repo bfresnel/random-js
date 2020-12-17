@@ -33,7 +33,7 @@ We can set some properties for our project. For this one, we will uncomment the 
 
 This will create a ``dist`` folder where all compiled js will be placed
 
-Create an ``index.js`` file in a ``src/`` folder and write some code in it. After that, select the folder where the ``tsconfig.json`` file is. Use the next command :
+Create an ``index.ts`` file in a ``src/`` folder and write some code in it. After that, select the folder where the ``tsconfig.json`` file is. Use the next command :
 
     $ npx tsc
 
