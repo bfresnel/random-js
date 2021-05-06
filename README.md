@@ -8,3 +8,9 @@ Just find yourself a folder that can catch your curiosity by his name ! 😁
  - [Node.js](https://nodejs.org/en/) LTS version
  - NPM (installed with Node.js)
  - [Visual Studio Code](https://code.visualstudio.com/)
+
+# Projects update
+
+|      Module        | Last update Date (DD/MM/YYYY) |
+|:------------------:|:-----------------------------:|
+| electron-framework | 06/05/2021                    |
